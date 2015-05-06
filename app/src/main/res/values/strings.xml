@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Foursquare Venues</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">search venues</string>
+    <string name="url_search">https://api.foursquare.com/v2/venues/search</string>
+    <string name="searching_venues">Searching for venues...</string>
+    <string name="use_search_to_see_nearby_venues">Use search to find nearby venues.</string>
+    <string name="results_for_x">Results for %s</string>
+    <string name="no_network_connection">No network connection.</string>
+    <string name="gps_disabled">Unable to get current location. Check that GPS is on.</string>
+    <string name="venues_update_failed">Hmm, something went wrong...</string>
+    <string name="x_meters">%s meters</string>
+    <string name="unknown_address">unknown address</string>
+</resources>

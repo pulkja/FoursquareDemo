@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="LoadingTextStyle">
+        <item name="android:textSize">@dimen/loading_text_size</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="VenueNameStyle">
+        <item name="android:textSize">@dimen/venue_name_text_size</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="VenueContentStyle">
+        <item name="android:textSize">@dimen/venue_content_text_size</item>
+        <item name="android:textColor">#FF222222</item>
+    </style>
+
+    <color name="InfoBackground">#ff2e2e2e</color>
+
+</resources>

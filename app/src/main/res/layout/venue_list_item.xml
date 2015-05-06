@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/venue_list_item_height"
+    android:padding="@dimen/venue_list_item_padding">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/venue_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/VenueNameStyle"/>
+
+        <TextView
+            android:id="@+id/venue_distance_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            style="@style/VenueContentStyle"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/venue_address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/VenueContentStyle"/>
+
+</LinearLayout>
